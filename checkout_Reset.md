@@ -20,11 +20,11 @@ Los siguientes ejercicios los debes realizar en tu máquina real, no es necesari
 
 Para realizar los siguientes ejercicios debes investigar sobre los parámetros --soft --mixed y --hard del comando git reset.
 
-16. Utilizando git reset, deshaz el commit previo y devuelve los cambios al directorio de trabajo.: "git reset --mixed"
+16. Utilizando git reset, deshaz el commit previo y devuelve los cambios al directorio de trabajo.: "git reset --mixed b765444"
 17. Añade el fichero second.txt otra vez al área de preparación.: "git add second.txt"
 18. Haz un commit con el mensaje "Trying to commit again".: "git commit -m "Trying to commit again""
-19. Utilizando git reset deshaz el commit previo y devuelve los cambios al área de preparación.: "git reset --soft"
+19. Utilizando git reset deshaz el commit previo y devuelve los cambios al área de preparación.: "git reset --soft b765444"
 20. Haz commit con el mensaje "Trying to commit again and again".: "git commit -m "Trying to commit again and again""
-21. Utilizando git reset deshaz el commit previo para que ningún cambio aparezca en el directorio de trabajo.: "git reset --hard"
+21. Utilizando git reset deshaz el commit previo para que ningún cambio aparezca en el directorio de trabajo.: "git reset --hard b765444"
 22. ¡Date una palmadita en la espalda! ¡Acabas de realizar un flujo de trabajo bastante complejo de git!
     
